@@ -1,0 +1,30 @@
+.navbar div{
+    color: whitesmoke;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+.navbar p{
+    color: whitesmoke;
+    font-weight: 100;
+}
+@media only screen and (max-width: 992px) {
+    .dis {
+      display: none;
+    }
+  }
+
+.navbar div:hover{
+    color: #1ed760;
+}
+.logo{
+    max-width: 150px;
+    max-height: 50px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+
+
+
+

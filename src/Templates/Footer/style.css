@@ -1,0 +1,78 @@
+.footer{
+    background-color: black;
+    color: white;
+    bottom: 0;
+    
+    width: 100%;
+    padding-top: 4rem;
+}
+.footer-text{
+    padding-top: 10px;
+}
+.footer-text-2{
+    padding-top: 50px;
+}
+.footer-text-2 span:hover{
+    color: #1ed760;
+}
+.Text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.7rem;
+}
+.bot{
+    padding-bottom: 40px;
+    font-size: 0.7rem;
+}
+.font{
+    font-size: 0.7rem;
+}
+.font:hover{
+    color: #1ed760;
+}
+.font-color{
+    color: grey; 
+}
+.line{
+    line-height: 40px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.line div{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.line div:hover{
+    color:#1ed760;
+
+}
+.logo{
+    max-width: 150px;
+    max-height: 50px;
+    min-width: 30px;
+    min-height: 30px;
+}
+.icons{
+    background-color: gray;
+    border-radius: 30px;
+    max-width: 150px;
+    max-height: 50px;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 10px;
+}
+.icons:hover{
+    background-color: #1ed760;
+}
+
+@media only screen and (max-width: 768px) {
+    .line {
+        line-height: 40px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding-top: 2rem;
+    }
+    .line2 {
+        padding-top: 5rem;
+    }
+  }

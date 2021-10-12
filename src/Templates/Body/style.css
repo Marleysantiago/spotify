@@ -1,0 +1,178 @@
+.cont{
+    padding-top: 5rem;
+    width: 100%;
+    background-color: #b49bc8;
+    padding-bottom: 3rem;
+}
+.cont h6{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.cont h1{
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+}
+.cont h3{
+    color: black;
+    padding-top: 2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.cont button{
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 3rem;
+    height: 3rem;
+    width: 20rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    margin-left: 0.2rem;
+}
+.cont button:hover{
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 3rem;
+    height: 3.2rem;
+    width: 20.5rem;
+    margin-top: 1.9rem;
+    font-weight: 700;
+    margin-left: 0rem;
+}
+.img{
+    margin-left: 70px;
+    margin-bottom: 50px;
+    max-width: 65%;
+    min-width: 40%;
+    max-height: 100%;
+    min-height: 40%;
+    
+}
+@media only screen and (max-width: 1200px) {
+    .cont{
+        padding-top: 3rem;
+        width: 100%;
+        background-color: #b49bc8;
+        padding-bottom: 2rem;
+    }
+    .cont h6{
+        font-size: 0.7rem;
+
+    }
+    .cont h1{
+        font-size: 4rem;
+        color: black;
+        font-weight: 700;
+        text-align: left;
+    }
+    .cont h3{
+        color: black;
+        padding-top: 2rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    .img{
+        max-width: 50%;
+        min-width: 40%;
+        max-height: 80%;
+        min-height: 40%;
+        padding-top: 4rem;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont h6{
+        text-align: center;
+    }
+    .cont2 h6, h1, h3{
+        text-align: center;
+    }
+    .cont2 div{
+        text-align: center;
+        width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+.cont2{
+    background-color: #2048ff;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.cont2 h6{
+    color: #1ed760;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.cont2 h1{
+    font-size: 4rem;
+    color: #1ed760;
+    font-weight: 700;
+}
+.cont2 h3{
+    color: #1ed760;
+    padding-top: 2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.cont2 button{
+    border: none;
+    background-color: #1ed760;
+    color: #2048ff;
+    border-radius: 3rem;
+    height: 3rem;
+    width: 20rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    margin-left: 0.2rem;
+}
+.cont2 button:hover{
+    border: none;
+    background-color: #1ed760;
+    color: #2048ff;
+    border-radius: 3rem;
+    height: 3.2rem;
+    width: 20.5rem;
+    margin-top: 1.9rem;
+    font-weight: 700;
+    margin-left: 0rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .cont2 button{
+        border: none;
+        background-color: #1ed760;
+        color: #2048ff;
+        border-radius: 3rem;
+        height: 3rem;
+        width: 15rem;
+        margin-top: 2rem;
+        font-weight: 700;
+        margin-left: 0.2rem;
+    }
+
+    .cont button{
+        border: none;
+        background-color: black;
+        color: whitesmoke;
+        border-radius: 3rem;
+        height: 3rem;
+        width: 15rem;
+        margin-top: 2rem;
+        font-weight: 700;
+        margin-left: 0.2rem;
+    }
+  }
